@@ -1,0 +1,53 @@
+:root{
+  font-size: 16px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+header{
+  margin-top: 140px;
+  background-color: #303030;
+  padding: 15px;
+}
+
+header h1{
+  color: #9d0000;
+  font-size: 3rem;
+}
+
+.keys{
+  margin-top: 100px;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.keys kbd{
+  padding: 10px;
+  background-color: #9d0000;
+  color: #000;
+  transition: all .7s;
+}
+
+
+.keys .playing{
+  background-color: #000;
+  color: #9d0000;
+}
